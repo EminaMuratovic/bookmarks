@@ -40,6 +40,10 @@ public class Bookmark extends Model {
 		find.byId(id).delete();
 	}
 	
+	public static Bookmark find(int id) {
+		return find.byId(id);
+	}
+	
 	
 
 }

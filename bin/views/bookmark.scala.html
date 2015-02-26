@@ -12,7 +12,7 @@
 		}
 	</ul>
 	
-	@helper.form(routes.Application.addBookmark()) {
+	@helper.form(routes.Application.addBookmark(), 'id->"addbookmark") {
 		@helper.inputText(inputBookmark("url"))
 		<input type="submit" value="save bookmark" />
 	}	

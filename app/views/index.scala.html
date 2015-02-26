@@ -1,11 +1,11 @@
 @(message: String)(name: String)(input: Form[Name])
 @import helper._
-@main("Welcome to Play") {
+@main("Bookmark !") {
 
 	@message
    <h4>Name: @name</h4>
    
-   @helper.form(routes.Application.recognize()) {
+   @helper.form(routes.Application.recognize(), 'id->"nameForm") {
    		<input type="text" value="" id="name" name="name" />
    		<input type="submit" value="save" />
    	

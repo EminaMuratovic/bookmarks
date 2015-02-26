@@ -8,7 +8,7 @@ import models.*;
 
 public class Application extends Controller {
 
-	static String message = "Welcome";
+	static String message = "Welcome to Bookmark";
 
 	static Form<Name> input = new Form<Name>(Name.class);
 	static String name = "no name";
